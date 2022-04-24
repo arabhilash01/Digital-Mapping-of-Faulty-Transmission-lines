@@ -1,0 +1,74 @@
+
+    
+
+
+.forms{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    
+    border: 5px solid #f1f1f1;
+    font-size: 10;
+    padding: 16px;
+    opacity: 1;
+} 
+button:hover {
+    opacity:0.75;
+  }
+.new_container
+  {
+      
+    color: whitesmoke;
+    display:flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    text-align: right;
+  }
+  .ab{
+  text-align: center;
+  }
+  .items{
+      display: grid;
+      align-items:justify;
+  }
+  
+  input{
+      height:50px;
+      /* background-color: lightsalmon; */
+      width: 500px;
+      border: 2px solid rgb(94, 70, 70);
+    border-radius: 4px;
+    text-align: center;
+      color:"black";
+      font-size: 25px;
+      flex:0 0 200px;
+      margin-left:10px;
+      opacity:0.75;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.5; 
+  }
+  
+  input:focus::placeholder {
+    color: transparent;
+  }
+  .a-section{
+    /* background: url(pic.jpg) no-repeat left; */
+    text-align: center;
+    background-size: 55%;
+    color:white;
+    
+    background-image: url('image3.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+     
+    text-emphasis-color: white;
+    overflow: hidden;
+    height: 100%;
+    padding: 50px 350px;
+}
